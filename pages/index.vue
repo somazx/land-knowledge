@@ -6,8 +6,8 @@
       class="inline-input"
       v-model="address"
       :fetch-suggestions="fetchSuggestions"
-      placeholder="Please Input"
-    ></el-autocomplete>
+      placeholder="Property Address"
+    ><i slot="suffix" class="el-input__icon el-icon-location"></i></el-autocomplete>
     </el-main>
   </el-container>
 </template>
@@ -77,3 +77,9 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style>
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
