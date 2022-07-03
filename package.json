@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/http": "^0.6.4",
     "axios": "^0.27.2",
     "core-js": "^3.19.3",
     "element-ui": "^2.15.6",
