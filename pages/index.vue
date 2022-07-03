@@ -8,6 +8,9 @@
       :fetch-suggestions="fetchSuggestions"
       placeholder="Property Address"
     ><i slot="suffix" class="el-input__icon el-icon-location"></i></el-autocomplete>
+    
+    <el-button type="primary" plain>View Report</el-button>
+
     </el-main>
   </el-container>
 </template>
@@ -81,5 +84,17 @@ export default Vue.extend({
 <style>
 body, html {
   font-family: Arial, Helvetica, sans-serif;
+  background-color:lightslategray;
+  margin: 0px
+}
+
+body, html, #__nuxt, #__layout, .el-container, .el-main {
+  height: 100%;
+}
+
+.el-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: white;
 }
 </style>
